@@ -1,0 +1,144 @@
+.nav {
+    height: hug(26px);
+    width: hug(116px);
+    position: absolute;
+    top: 29px;
+    left: 9px;
+    gap: 10px;
+}
+
+.drop {
+    width: 57px;
+    height: 57px;
+    position: absolute;
+    top: 18px;
+    left: 1210px;
+    border-radius: 5px;
+}
+
+.head {
+    position: absolute;
+    top: 240px;
+    left: 117;
+}
+
+.content {
+    position: absolute;
+    top: 460px;
+    left: 190;
+}
+
+.images {
+    position: absolute;
+    width: 704px;
+    height: 800px;
+    left: 736px;
+    top: 0px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(0deg, #D3D7DB 0%, rgba(211, 215, 219, 0.0001) 15.62%), radial-gradient(56.34% 42.51% at 46.9% 60.87%, rgba(229, 232, 235, 0.409079) 0%, rgba(229, 232, 235, 0.0001) 100%), radial-gradient(71.13% 75.35% at 40.49% 0%, #CAD0D4 0%, #B8C0C7 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    ;
+    background-blend-mode: color, normal, normal, normal;
+    filter: blur(250px);
+    border-radius: 40px 0px 0px 40px;
+
+}
+
+#logo {
+
+    position: absolute;
+    width: 455px;
+    height: 549px;
+    left: 861px;
+    top: 75px;
+
+}
+
+.shadow {
+    
+
+position: absolute;
+width: 550px;
+height: 374px;
+left: 766px;
+top: 368px;
+
+background: url(./images/Shadow.png);
+mix-blend-mode: overlay;
+
+}
+
+.box1 {
+    /* icon/store */
+
+position: absolute;
+width: 144px;
+height: 50px;
+left: 117px;
+top: 702px;
+
+
+}
+
+.box2 {
+    position: absolute;
+    width: 144px;
+    height: 50px;
+    left: 296px;
+    top: 702px;
+
+
+}
+
+.box3 {
+    position: absolute;
+    width: 144px;
+    height: 50.18px;
+    left: 475px;
+    top: 702px;
+
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 26px;
+    gap: 10px;
+
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 963px;
+    top: 702px;
+
+    background: #64D2FF;
+    border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px wide */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for screens between 601px and 1024px wide */
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /* Styles for screens wider than 1024px */
+  }
+  /* Example media queries */
+@media only screen and (max-width: 600px) {
+    /* Styles for smaller screens */
+    .nav {
+      /* Adjust navigation styles for smaller screens */
+    }
+    
+    /* Adjust other styles as needed */
+  }
+  
+  /* More media queries for other screen sizes */
+  
